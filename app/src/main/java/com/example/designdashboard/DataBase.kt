@@ -1,14 +1,14 @@
 package com.example.designdashboard
 
-import com.example.designdashboard.models.GridViewModel
+import com.example.designdashboard.models.Item
 
 class DataBase {
     val list = mutableListOf(
-        GridViewModel("Gismeteo", R.drawable.gis ),
-        GridViewModel("Yandex", R.drawable.yandex),
-        GridViewModel("Perplexity", R.drawable.perplexity),
-        GridViewModel("Github", R.drawable.github),
-        GridViewModel("Deeple", R.drawable.deeple),
-        GridViewModel("YouTube", R.drawable.youtube)
+        Item("Home", R.drawable.baseline_home_24 ),
+        Item("Profile", R.drawable.baseline_person_24),
+        Item("Settings", R.drawable.baseline_settings_24),
+        Item("Logout", R.drawable.baseline_logout_24),
+//        Item("Chat", R.drawable.baseline_chat_24),
+//        Item("Widgets", R.drawable.baseline_widgets_24)
     )
 }

@@ -1,6 +1,6 @@
 package com.example.designdashboard.models
 
-class GridViewModel(
+class Item(
     val name: String,
     val image: Int,
 )
